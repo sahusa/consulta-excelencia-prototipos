@@ -29,5 +29,11 @@ Usar apenas dados fictícios e ações simuladas, sem credenciais ou conexão à
   apenas no localStorage deste navegador. Fotos, PDF e agenda são simulados;
   as assinaturas pertencem apenas à demonstração, sem envio ao sistema principal.
   O perfil da cliente não está incluído neste protótipo.
+- `/prontuario-depilacao-laser`: Prontuário de Depilação a Laser, com registro
+  da sessão, assinatura simulada, resumo e histórico. Recursos em
+  `public/assets/prontuario-depilacao-laser/`; reutiliza o CSS base da ficha.
+  O preenchimento fica apenas no localStorage deste navegador. Fotografias e
+  registro da próxima sessão são simulados. O link da ficha abre
+  `/ficha-avaliacao-laser`; o perfil da cliente não está incluído.
 
 Referência: https://vercel.com/docs/project-configuration/vercel-json
